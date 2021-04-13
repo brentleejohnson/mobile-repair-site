@@ -20,6 +20,7 @@ body {
 #social > div {
   display: flex;
 }
+
 #social > div > p {
   margin-right: 20px;
 }
