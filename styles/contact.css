@@ -5,11 +5,46 @@
   padding: 1% 10%;
 }
 
-.contact-details {
-  display: flex;
-}
-
-.contact-details > div {
+.contact-details,
+.contact-information {
   display: flex;
   align-items: center;
+}
+
+.button {
+  background-color: #f26522;
+  color: white;
+  text-decoration: none;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: #222;
+}
+
+.contact-information {
+  margin: 0 20px;
+}
+
+.contact-icon {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.contact-heading p {
+  white-space: nowrap;
+}
+
+.contact-heading-top {
+  font-size: 12px;
+  color: #222;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.contact-heading-bottom {
+  color: #f26522;
 }
